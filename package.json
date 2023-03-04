@@ -1,0 +1,50 @@
+{
+  "name": "salwyr-bot",
+  "version": "1.0.0",
+  "description": "Salwyr a new discord moderation bot.",
+  "main": "salwyr.js",
+  "scripts": {
+    "start": "node salwyr.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thendra-s/salwyr.git"
+  },
+  "keywords": [
+    "Salwyr",
+    "Discord Bot",
+    "Moderation",
+    "Salwyr Bot"
+  ],
+  "author": "Thendra",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thendra-s/salwyr/issues"
+  },
+  "homepage": "https://github.com/thendra-s/salwyr#readme",
+  "dependencies": {
+    "ascii-table": "^0.0.9",
+    "axios": "^1.3.0",
+    "better-sqlite3": "^8.0.1",
+    "colors": "^1.4.0",
+    "dateformat": "^5.0.3",
+    "discord-banner": "^1.6.7",
+    "discord.js": "^14.7.1",
+    "express": "^4.18.2",
+    "fs": "^0.0.1-security",
+    "http": "^0.0.1-security",
+    "humanize-duration": "^3.28.0",
+    "moment": "^2.29.4",
+    "moment-duration-format": "^2.3.2",
+    "mongoose": "^6.9.0",
+    "ms": "^2.1.3",
+    "node-fetch": "^3.3.0",
+    "os": "^0.1.2",
+    "os-utils": "^0.0.14",
+    "quick.db": "^9.0.8",
+    "reconlx": "^2.5.6"
+  },
+  "engines": {
+    "node": "16.x"
+  }
+}
